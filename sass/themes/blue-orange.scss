@@ -83,7 +83,8 @@ header.row {
             }
         }
         &.is-scrolling {
-            background: $white;
+            // background: $white;
+            background: url('../../images/ntpl/header.jpg');
             -webkit-box-shadow: 0 2px 42px rgba(0, 0, 0, 0.1);
             box-shadow: 0 2px 42px rgba(0, 0, 0, 0.1);
             .nav li {
@@ -149,7 +150,12 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 
 .top-banner {
     h2 {
-        color: $baseColor;
+        color: #ff6622;
+        text-align: left;
+        span{
+            color: $baseColor;
+            font-size: 25px;
+        }
     }
     p {
         color: #8a9095;
@@ -162,7 +168,8 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 body.home {
     header {
         .navbar {
-            background: transparent;
+            // background: url('../../images/ntpl/header.jpg');
+            background: $white;
         }
     }
 }

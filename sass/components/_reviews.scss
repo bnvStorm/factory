@@ -1,5 +1,12 @@
 .reviews{
-    padding: 112px 0 50px;    
+    padding: 112px 0 50px;
+    margin-top: 20px !important;    
+    background: url('../../images/ntpl/review2.jpg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+   .section-header h2{
+    color: $white !important;
+   }
 }
 
 .review{
@@ -14,6 +21,7 @@
         margin-bottom: 20px;
     }
     p{
+        color: $white !important;
         margin-bottom: 30px;
         font: 300 17px/29px $poppin;
     }

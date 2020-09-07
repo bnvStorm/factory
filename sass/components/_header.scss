@@ -80,7 +80,7 @@
     h2 {
         margin: 0 0 20px;
         font: 600 79px/1 $poppin;
-        letter-spacing: -3px;
+        letter-spacing: 0px;
         @media (max-width: 1199px) {
             font-size: 68px;
         }
@@ -163,7 +163,7 @@
 }
 
 header.row {
-    background: url(../images/header-background.jpg) no-repeat scroll center bottom;
+    background: url(../images/ntpl/first_background.jpg) no-repeat scroll center bottom;
     background-size: cover;
 }
 
@@ -318,7 +318,7 @@ header.video-bg {
  * Youtube Video Player
  ***********************/
 
-.mb_YTPlayer:focus {
+ .mb_YTPlayer:focus {
     outline: 0;
 }
 
@@ -464,4 +464,27 @@ header.video-bg {
 .mb_YTPBar .level.vertical {
     height: auto;
     width: 100%;
+}
+
+
+//DOP
+.main-text{
+    padding-bottom: 90px;
+}
+.ylw-box{
+    background: $ylw;
+    display: inline-block;
+    padding:5px 10px;
+    .text{
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+@media (max-width: 480px) {
+    .main-text{
+        padding-bottom: 10px;
+    }
+    .ylw-box{
+        margin-bottom: 10px;
+    }
 }

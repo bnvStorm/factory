@@ -50,7 +50,7 @@ a {
 }
 
 .btn-warning {
-    background: $secondary;
+    background: #9300FF;
 }
 
 .btn-block {
@@ -149,7 +149,12 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 
 .top-banner {
     h2 {
-        color: $baseColor;
+        color: #9300FF;
+        text-align: left;
+        span{
+            color: $baseColor;
+            font-size: 25px;
+        }
     }
     p {
         color: #8a9095;

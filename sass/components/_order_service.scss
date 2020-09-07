@@ -1,0 +1,15 @@
+.order_service{
+	background: url('../../images/ntpl/order_btn.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 20px 0;
+	margin-bottom: 10px;
+	a{
+		color:#fff;
+		font-size: 50px;
+		&:hover{
+			color: $ylw;
+		}
+	}
+}

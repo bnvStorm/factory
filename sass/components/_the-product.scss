@@ -1,16 +1,24 @@
 .the-product {
-    padding: 110px 0 160px;
+    padding: 110px 0 20px;
     @media(max-width: 767px) {
         text-align: center;
         overflow: hidden;
     }
     img {
         @media (max-width: 767px) {
-            max-width: 200px;
+            // max-width: 200px;
         }
     }
 }
-
+.the-product-text{
+    display: flex;
+    img{
+        margin-right: 20px;
+    }
+    .text{
+        font-size: 30px;
+    }
+}
 .apple-watch-note-feature {
     padding-top: 35px;
     position: relative;
