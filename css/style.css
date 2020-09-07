@@ -1809,6 +1809,12 @@ header.video-bg {
     .order_service a:hover {
       color: #FFED00; }
 
+.pause {
+  background: url("../../images/ntpl/pause.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0; }
+
 /*=========Contact==========*/
 #mapBox {
   height: 546px; }

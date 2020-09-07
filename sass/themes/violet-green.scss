@@ -83,7 +83,8 @@ header.row {
             }
         }
         &.is-scrolling {
-            background: $white;
+            // background: $white;
+            background: url('../../images/ntpl/header.jpg');
             -webkit-box-shadow: 0 2px 42px rgba(0, 0, 0, 0.1);
             box-shadow: 0 2px 42px rgba(0, 0, 0, 0.1);
             .nav li {
