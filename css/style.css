@@ -3678,6 +3678,11 @@ footer.row {
   padding: 45px 0;
 }
 
+@media (min-width: 1201px) {
+  .pause2 {
+    background-size: cover;
+  }
+}
 .people {
   text-align: center;
   background: url(../../images/ntpl/bg.jpg);

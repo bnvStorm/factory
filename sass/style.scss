@@ -183,11 +183,17 @@ Table of Content:
 		}
 	}
 }
+
 .pause2{
 	background: url(../../images/ntpl/pause2.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	padding: 45px 0;
+}
+@media (min-width:1201px) {
+	.pause2{
+		background-size: cover;
+	}
 }
 .people{
 	text-align: center;
