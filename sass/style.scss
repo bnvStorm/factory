@@ -154,3 +154,61 @@ Table of Content:
 /*========= Pricing ==========*/
 
 @import "components/pricing";
+
+
+// ADDONS
+.navbar {
+	.container{
+		display: flex;
+		justify-content: space-between;
+	}
+	.lang{
+		display: flex;
+		flex-direction: column;
+		a{
+			color:#000;
+			text-transform: uppercase;
+			text-decoration: none;
+			text-align: center;
+			padding: 3px;
+		}
+		.kz{
+			background: #FFED00;
+		}
+		.ru{
+			background: #EF7F1A;
+		}
+		.eng{
+			background: #E31E24;
+		}
+	}
+}
+.pause2{
+	background: url(../../images/ntpl/pause2.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 45px 0;
+}
+.people{
+	text-align: center;
+	background: url(../../images/ntpl/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 1190px;
+	margin: 0 auto;
+	.img_cont{
+		margin-top: 20px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.image{
+		width: 300px;
+		margin-bottom: 20px;
+		img{
+			width: 100%;
+		}
+	}
+
+}
