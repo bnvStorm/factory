@@ -3708,3 +3708,9 @@ footer.row {
 .people .image img {
   width: 100%;
 }
+
+@media (max-width: 960px) {
+  .pause2 {
+    padding: 27px 0;
+  }
+}

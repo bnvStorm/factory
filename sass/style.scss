@@ -191,6 +191,7 @@ Table of Content:
 	background-size: contain;
 	padding: 45px 0;
 }
+
 @media (min-width:1201px) {
 	.pause2{
 		background-size: cover;
@@ -224,4 +225,9 @@ Table of Content:
 		}
 	}
 
+}
+@media (max-width: 960px) {
+	.pause2{
+	padding: 27px 0;
+}
 }

@@ -38,7 +38,7 @@ $secondary: #0084ff;
 /*===== GLOBAL =====*/
 
 a {
-    color: $primary;
+    color: $red;
     &:hover,
     &:focus {
         color: darken($primary, 30%);
@@ -54,7 +54,7 @@ a {
 }
 
 .btn-block {
-    background: $primary;
+    background: $red;
 }
 
 
@@ -148,10 +148,10 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
     }
 }
 
-.top-banner {
+.the-product,.top-banner,.how-it-works,.split-columns,.people,.faqs,.tech-specs,.featured-on {
     h2 {
         color: $red;
-        text-align: left;
+        // text-align: left;
         span{
             color: $baseColor;
             font-size: 25px;
@@ -164,7 +164,11 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
         img {}
     }
 }
-
+.top-banner{
+    h2{
+        text-align: left;
+    }
+}
 body.home {
     header {
         .navbar {
@@ -182,7 +186,7 @@ body.home {
         background: #eee;
     }
     h2 {
-        color: $baseColor;
+        // color: $baseColor;
     }
     p {
         color: #969da3;
@@ -353,7 +357,7 @@ body.home {
     .image {}
     .texts {
         h2 {
-            color: $baseColor;
+            // color: $baseColor;
         }
         p {
             color: $lightBluish;
@@ -377,7 +381,7 @@ body.home {
 .featured-on {
     background: $lightGray;
     h3 {
-        color: $baseColor;
+        color: $red;
     }
 }
 
