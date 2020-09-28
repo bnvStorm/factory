@@ -2393,10 +2393,6 @@ header.video-bg {
   position: relative;
 }
 
-.menu-rights {
-  background: #000000a1 !important;
-}
-
 .flip-box-container {
   -ms-perspective: 1000;
   perspective: 1000;
@@ -3649,6 +3645,7 @@ footer.row {
 .navbar .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .navbar .lang {
   display: flex;
@@ -3684,12 +3681,18 @@ footer.row {
   }
 }
 .people {
+  padding-top: 30px;
   text-align: center;
   background: url(../../images/ntpl/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1190px;
   margin: 0 auto;
+}
+.people h2 {
+  font: 600 48px/29px "Roboto", sans-serif;
+  margin-top: -5px;
+  margin-bottom: 40px;
 }
 .people .img_cont {
   margin-top: 20px;

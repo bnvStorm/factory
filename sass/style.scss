@@ -161,6 +161,7 @@ Table of Content:
 	.container{
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 	}
 	.lang{
 		display: flex;
@@ -193,15 +194,21 @@ Table of Content:
 @media (min-width:1201px) {
 	.pause2{
 		background-size: cover;
-	}
+	}	
 }
 .people{
+	padding-top: 30px;
 	text-align: center;
 	background: url(../../images/ntpl/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 1190px;
 	margin: 0 auto;
+	h2{
+		font: 600 48px/29px "Roboto", sans-serif;
+		margin-top: -5px;
+		margin-bottom: 40px;
+	}
 	.img_cont{
 		margin-top: 20px;
 		display: flex;
