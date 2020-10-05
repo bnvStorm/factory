@@ -157,6 +157,11 @@ Table of Content:
 
 
 // ADDONS
+.container-head{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 .navbar {
 	.container{
 		display: flex;
@@ -203,8 +208,8 @@ Table of Content:
 	background: url(../../images/ntpl/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	max-width: 1190px;
-	margin: 0 auto;
+	// max-width: 1190px;
+	// margin: 0 auto;
 	h2{
 		font: 600 48px/29px "Roboto", sans-serif;
 		margin-top: -5px;
@@ -216,6 +221,8 @@ Table of Content:
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-around;
+		max-width: 1190px;
+		margin: 0 auto;
 	}
 	.image{
 		width: 300px;
@@ -228,6 +235,14 @@ Table of Content:
 }
 @media (max-width: 960px) {
 	.pause2{
-	padding: 27px 0;
+		padding: 27px 0;
+	}
 }
+@media (max-width: 480px) {
+	.pause2{
+		display: none;
+		h2{
+			line-height: 39px;
+		}
+	}
 }

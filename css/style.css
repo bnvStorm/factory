@@ -3642,6 +3642,12 @@ footer.row {
   border: 0;
 }
 
+.container-head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .navbar .container {
   display: flex;
   justify-content: space-between;
@@ -3686,8 +3692,6 @@ footer.row {
   background: url(../../images/ntpl/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1190px;
-  margin: 0 auto;
 }
 .people h2 {
   font: 600 48px/29px "Roboto", sans-serif;
@@ -3700,6 +3704,8 @@ footer.row {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  max-width: 1190px;
+  margin: 0 auto;
 }
 .people .image {
   width: 300px;
@@ -3712,5 +3718,13 @@ footer.row {
 @media (max-width: 960px) {
   .pause2 {
     padding: 27px 0;
+  }
+}
+@media (max-width: 480px) {
+  .pause2 {
+    display: none;
+  }
+  .pause2 h2 {
+    line-height: 39px;
   }
 }
