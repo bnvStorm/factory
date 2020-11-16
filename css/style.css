@@ -3642,6 +3642,15 @@ footer.row {
   border: 0;
 }
 
+.top-banner {
+  background: rgba(214, 214, 214, 0.31);
+}
+
+header.row {
+  background: url(../images/ntpl/first_background.png) no-repeat scroll center bottom;
+  background-size: cover;
+}
+
 .container-head {
   display: flex;
   justify-content: space-around;
@@ -3695,8 +3704,8 @@ footer.row {
 }
 .people h2 {
   font: 600 48px/29px "Roboto", sans-serif;
-  margin-top: -5px;
-  margin-bottom: 40px;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 .people .img_cont {
   margin-top: 20px;
