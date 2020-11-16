@@ -3646,11 +3646,6 @@ footer.row {
   background: rgba(214, 214, 214, 0.31);
 }
 
-header.row {
-  background: url(../images/ntpl/first_background.png) no-repeat scroll center bottom;
-  background-size: cover;
-}
-
 .container-head {
   display: flex;
   justify-content: space-around;
