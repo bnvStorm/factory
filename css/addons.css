@@ -1,0 +1,72 @@
+.faq{
+	margin-top: 0px !important;
+}
+.faq p,.faq h4{
+	text-align: center;
+}
+.top-banner h2 {
+  margin: 0 0 20px;
+  font: 600 35px/1 "Roboto", sans-serif;
+  letter-spacing: 0px;
+} 
+.section-header h2{
+
+    font: 600 48px/55px "Roboto", sans-serif;
+}
+.review img{
+	width: 110px;
+}
+.item{
+	max-width: 20%;
+	min-width: 160px;
+	margin-bottom: 20px;
+}
+.item_card{
+/*	color:#fff;*/
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	background: #fff;
+	border-radius:10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.item .title{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.item img:first-child{
+	margin-bottom: 10px;
+}
+.phone-ico{
+	margin-bottom: 0 !important;
+	margin-right: 10px;
+}
+.item .text{
+	/*color: #fff;*/
+}
+.sites_box{
+	display: flex;
+	flex-wrap:wrap;
+	    justify-content: center;
+}
+.phone__text{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+.phone-ico{
+	width: 40px !important;
+}
+.phone_left{
+	    display: flex;
+    align-items: center;
+}
+/*.sites_box .row{
+	display: flex;
+}*/
+@media (max-width: 1199px){
+.top-banner h2 {
+    font-size: 30px;
+}
+}
