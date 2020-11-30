@@ -16,6 +16,7 @@
 .review img{
 	width: 110px;
 }
+
 .item{
 	max-width: 20%;
 	min-width: 160px;
@@ -24,12 +25,14 @@
 .item_card{
 /*	color:#fff;*/
 	display: flex;
-	flex-direction: column;
-	padding: 10px;
-	background: #fff;
-	border-radius:10px;
-	margin-left: 10px;
-	margin-right: 10px;
+    flex-direction: column;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+    min-height: 510px;
+    justify-content: flex-start;
+    margin-right: 10px;
 }
 .item .title{
 	margin-top: 10px;
