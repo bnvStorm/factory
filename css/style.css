@@ -509,7 +509,7 @@ textarea.form-control {
 /*========= @import Components ==========*/
 /*=========Prefix==========*/
 .m0 {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .p0 {
@@ -623,7 +623,7 @@ textarea.form-control {
 }
 .section-header h2 {
   text-transform: uppercase;
-  font: 600 48px/39px "Roboto", sans-serif;
+  font: 600 48px/29px "Roboto", sans-serif;
   padding-top: 5px;
   margin: 0 0 25px;
 }
@@ -747,7 +747,7 @@ textarea.form-control {
 }
 .top-banner h2 {
   margin: 0 0 20px;
-  font: 600 35px/1 "Roboto", sans-serif;
+  font: 600 79px/1 "Roboto", sans-serif;
   letter-spacing: 0px;
 }
 @media (max-width: 1199px) {
@@ -1845,7 +1845,7 @@ header.video-bg {
 .reviews {
   padding: 112px 0 50px;
   margin-top: 20px !important;
-  background: url("../images/ntpl/review2.jpg") !important;
+  background: url("../../images/ntpl/review2.jpg") !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
@@ -2357,7 +2357,7 @@ header.video-bg {
 }
 /*=========Order_service=========*/
 .order_service {
-  background: url("../images/ntpl/order_btn.jpg");
+  background: url("../../images/ntpl/order_btn.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -2373,7 +2373,7 @@ header.video-bg {
 }
 
 .pause {
-  background: url("../images/ntpl/pause.jpg");
+  background: url("../../images/ntpl/pause.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px 0;
@@ -2517,7 +2517,7 @@ header.video-bg {
 /*=========Footer==========*/
 footer.row {
   text-align: center;
-  background: url("../images/ntpl/footer.jpg") !important;
+  background: url("../../images/ntpl/footer.jpg") !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
@@ -3642,6 +3642,228 @@ footer.row {
   border: 0;
 }
 
+.faq {
+  margin-top: 0px !important;
+}
+
+.faq p, .faq h4 {
+  text-align: center;
+}
+
+.top-banner h2 {
+  margin: 0 0 20px;
+  font: 600 35px/1 "Roboto", sans-serif;
+  letter-spacing: 0px;
+}
+
+.section-header h2 {
+  font: 600 48px/55px "Roboto", sans-serif;
+}
+
+.reviews .section-header h2 {
+  font: 600 35px/35px "Roboto", sans-serif;
+}
+
+.review img {
+  width: 110px;
+}
+
+.item {
+  max-width: 20%;
+  min-width: 160px;
+  margin-bottom: 20px;
+}
+
+.item_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  min-height: 370px;
+  min-width: 180px;
+  max-width: 180px;
+  width: 100%;
+}
+.item_card .title {
+  display: block;
+  background: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.item_card .text {
+  display: none;
+  min-height: 370px;
+  z-index: 999;
+  background: rgba(0, 161, 228, 0.5);
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.item_card .text:first-child {
+  padding-bottom: 0;
+}
+.item_card .text:last-child {
+  padding-top: 0;
+}
+
+.item_card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.item_card:hover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #948f8d69;
+}
+
+.item_card:hover a {
+  color: #fff;
+}
+.item_card:hover a .title {
+  display: none;
+}
+.item_card:hover .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item a:first-child {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 10px;
+}
+
+.phone-ico {
+  margin-bottom: 0 !important;
+  margin-right: 10px;
+}
+
+.item .text {
+  /*color: #fff;*/
+}
+
+.sites_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.phone__text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.phone-ico {
+  width: 40px !important;
+}
+
+.phone_left {
+  display: flex;
+  align-items: center;
+}
+
+.split-column .texts p {
+  color: #000 !important;
+}
+
+.split-column .texts p {
+  margin: 0;
+  font: 300 22px/32px "Roboto", sans-serif;
+}
+
+.people h2 {
+  margin-top: 60px !important;
+  margin-bottom: 70px !important;
+}
+
+.flip-box-container .contact-box {
+  border: 1px solid #000;
+}
+
+.flip-box-part {
+  left: 75%;
+}
+
+/*.sites_box .row{
+	display: flex;
+	}*/
+.people .img_cont {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+  .flip-box-part {
+    left: 0;
+  }
+}
+@media (max-width: 480px) {
+  .flip-box-part {
+    left: 0;
+  }
+
+  .faqs {
+    padding-top: 30px;
+  }
+
+  .how-it-works h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .section-header.v2:after {
+    display: none;
+  }
+
+  .how-it-works, .the-product, .reviews {
+    padding-top: 50px;
+  }
+
+  .section-header {
+    margin-bottom: 25px;
+  }
+
+  .reviews .section-header h2 {
+    font: 600 20px/25px "Roboto", sans-serif;
+  }
+
+  .people h2, .faqs h2 {
+    font-size: 35px !important;
+    margin-top: 20px !important;
+    margin-bottom: 50px !important;
+  }
+
+  .item {
+    max-width: 20%;
+    min-width: 180px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  .top-banner h2 {
+    font-size: 30px;
+  }
+}
 .top-banner {
   background: rgba(214, 214, 214, 0.31);
 }
@@ -3679,7 +3901,7 @@ footer.row {
 }
 
 .pause2 {
-  background: url(../images/ntpl/pause2.jpg);
+  background: url(../../images/ntpl/pause2.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 45px 0;
@@ -3693,7 +3915,7 @@ footer.row {
 .people {
   padding-top: 30px;
   text-align: center;
-  background: url(../images/ntpl/bg.jpg);
+  background: url(../../images/ntpl/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
