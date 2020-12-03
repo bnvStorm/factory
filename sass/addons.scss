@@ -146,7 +146,7 @@
 	border: 1px solid #000;
 }
 .flip-box-part{
-	left: 75%;
+	left: 65%;
 }
 /*.sites_box .row{
 	display: flex;
@@ -154,46 +154,46 @@
 	.people .img_cont{
 		padding-bottom: 20px;
 	}
-		@media (max-width: 1024px){
+	@media (max-width: 1024px){
 		.flip-box-part{
 			left: 0;
-		}}
-	@media (max-width: 480px){
-		.flip-box-part{
-			left: 0;
-		}
-		.faqs{
-			padding-top: 30px;
-		}
-		.how-it-works h2{
-			font-size: 20px;
-			line-height: 25px;
-		}
-		.section-header.v2:after{
-			display: none;
-		}
-		.how-it-works,.the-product,.reviews{
-			padding-top: 50px;
-		}
-		.section-header{
-			margin-bottom: 25px;
-		}
-		.reviews .section-header h2 {
-			font: 600 20px/25px "Roboto", sans-serif;
-		}
-		.people h2, .faqs h2{
-			font-size: 35px !important;
-			margin-top: 20px !important;
-			margin-bottom: 50px !important;
-		}
-		.item{
-			max-width: 20%;
-			min-width: 180px;
-			margin-bottom: 20px;
-		}
-	}
-	@media (max-width: 1199px){
-		.top-banner h2 {
-			font-size: 30px;
-		}
-	}
+			}}
+			@media (max-width: 480px){
+				.flip-box-part{
+					left: 0;
+				}
+				.faqs{
+					padding-top: 30px;
+				}
+				.how-it-works h2{
+					font-size: 20px;
+					line-height: 25px;
+				}
+				.section-header.v2:after{
+					display: none;
+				}
+				.how-it-works,.the-product,.reviews{
+					padding-top: 50px;
+				}
+				.section-header{
+					margin-bottom: 25px;
+				}
+				.reviews .section-header h2 {
+					font: 600 20px/25px "Roboto", sans-serif;
+				}
+				.people h2, .faqs h2{
+					font-size: 35px !important;
+					margin-top: 20px !important;
+					margin-bottom: 50px !important;
+				}
+				.item{
+					max-width: 20%;
+					min-width: 180px;
+					margin-bottom: 20px;
+				}
+			}
+			@media (max-width: 1199px){
+				.top-banner h2 {
+					font-size: 30px;
+				}
+			}
