@@ -22,8 +22,8 @@
 }
 
 .item{
-	max-width: 20%;
-	min-width: 160px;
+	max-width: 25%;
+	min-width: 250px;
 	margin-bottom: 20px;
 }
 .item_card{
@@ -36,9 +36,9 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-sizing:border-box;
-	min-height: 370px;
-	min-width: 180px;
-	max-width: 180px;
+	min-height: 290px;
+	min-width: 250px;
+	max-width: 250px;
 	width: 100%;
 	// padding: 10px;
 
@@ -50,7 +50,7 @@
 	}
 	.text{
 		display: none;
-		min-height: 370px;
+		min-height: 290px;
 		z-index: 999;
 		background: rgb(0 161 228 / 0.5);
 		color: #fff;
@@ -61,7 +61,7 @@
 		padding-bottom: 0;
 	}
 	.text:last-child{
-		padding-top: 0;
+		// padding-top: 0;
 	}
 
 }
@@ -187,8 +187,8 @@
 					margin-bottom: 50px !important;
 				}
 				.item{
-					max-width: 20%;
-					min-width: 180px;
+					max-width: 25%;
+					min-width: 250px;
 					margin-bottom: 20px;
 				}
 			}
