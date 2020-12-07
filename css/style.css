@@ -3684,7 +3684,7 @@ footer.row {
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
-  min-height: 290px;
+  min-height: 250px;
   min-width: 250px;
   max-width: 250px;
   width: 100%;
@@ -3697,12 +3697,13 @@ footer.row {
 }
 .item_card .text {
   display: none;
-  min-height: 290px;
+  min-height: 250px;
   z-index: 999;
   background: rgba(0, 161, 228, 0.5);
   color: #fff;
   padding: 10px;
   box-sizing: border-box;
+  font-size: 13px;
 }
 .item_card .text:first-child {
   padding-bottom: 0;
@@ -3744,7 +3745,7 @@ footer.row {
   display: block;
   width: 100%;
   position: absolute;
-  top: 10px;
+  top: 0px;
 }
 
 .phone-ico {
@@ -3801,6 +3802,10 @@ footer.row {
   left: 65%;
 }
 
+.the-product {
+  padding-top: 50px;
+}
+
 /*.sites_box .row{
 	display: flex;
 	}*/
@@ -3809,6 +3814,11 @@ footer.row {
 }
 
 @media (max-width: 1024px) {
+  .split-column .texts p {
+    margin: 0;
+    font: 300 16px/25px "Roboto", sans-serif;
+  }
+
   .flip-box-part {
     left: 0;
   }
