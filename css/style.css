@@ -475,7 +475,7 @@ textarea.form-control {
   color: #C2C2C2;
 }
 
-/* 
+/*
    Back to Top
    ----------- */
 .back_to_top {
@@ -494,7 +494,7 @@ textarea.form-control {
   opacity: 0.5;
 }
 
-/* 
+/*
    Gallery
    ----------- */
 .gallery__image {
@@ -3324,7 +3324,7 @@ footer.row {
   padding-top: 17px;
 }
 
-/* 
+/*
    Transition
    ------------ */
 .personal-info {
@@ -3699,11 +3699,13 @@ footer.row {
   display: none;
   min-height: 250px;
   z-index: 999;
-  background: rgba(0, 161, 228, 0.5);
-  color: #fff;
+  background: rgba(255, 178, 4, 0.82);
+  color: #36074e;
   padding: 10px;
   box-sizing: border-box;
   font-size: 13px;
+  width: 100%;
+    max-width: 250px;
 }
 .item_card .text:first-child {
   padding-bottom: 0;
@@ -3940,7 +3942,7 @@ footer.row {
   margin: 0 auto;
 }
 .people .image {
-  width: 300px;
+  width: 230px;
   margin-bottom: 20px;
 }
 .people .image img {
