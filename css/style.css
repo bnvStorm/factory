@@ -3944,11 +3944,46 @@ footer.row {
 .people .image {
   width: 300px;
   margin-bottom: 20px;
+  position: relative;
+}
+
+.name{
+  opacity: 0;
+  visibility: hidden;
+  transition: .55s opacity, .55s visibility;
+  position: absolute;
+    top: 290px;
+    color:#36074e;
+    padding: 33px 0;
+    font-size: 16px;
+    width: 100%;
+    background: rgba(255, 178, 4, 0.82);
+}
+.people .image:hover .name{
+  opacity: 1;
+visibility: visible;
+}
+.contact-box ul li {
+    color: #000 !important;
+}
+.contact-box ul li + li{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
 }
 .people .image img {
   width: 100%;
 }
-
+.footer-menu li a{
+  color:#36074e !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+}
+footer.row .menu-rights p{
+  color:#000 !important;
+}
 @media (max-width: 960px) {
   .pause2 {
     padding: 27px 0;
