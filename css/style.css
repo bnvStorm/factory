@@ -1845,7 +1845,7 @@ header.video-bg {
 .reviews {
   padding: 112px 0 50px;
   margin-top: 20px !important;
-  background: url("../../images/ntpl/review2.jpg") !important;
+  /*background: url("../../images/ntpl/review2.jpg") !important;*/
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
@@ -2373,7 +2373,7 @@ header.video-bg {
 }
 
 .pause {
-  background: url("../../images/ntpl/pause.jpg");
+  /*background: url("../../images/ntpl/pause.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px 0;
@@ -2517,7 +2517,7 @@ header.video-bg {
 /*=========Footer==========*/
 footer.row {
   text-align: center;
-  background: url("../../images/ntpl/footer.jpg") !important;
+/*  background: url("../../images/ntpl/footer.jpg") !important;*/
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
@@ -3920,10 +3920,10 @@ footer.row {
     background-size: cover;
   }
 }
-.people {
+r {
   padding-top: 30px;
   text-align: center;
-  background: url(../../images/ntpl/bg.jpg);
+  /*background: url(../../images/ntpl/bg.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
 }
