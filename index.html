@@ -17,6 +17,7 @@
     <link href="vendors/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
     <link href="vendors/owl-carousel/assets/owl.carousel.css" rel="stylesheet">
     <link href="css/plugins/animate.css" rel="stylesheet">
+    <link href="/css/darkscroll.css" rel="stylesheet">
     <!-- Preloader -->
     <link href="css/plugins/preloader.css" rel="stylesheet">
     <!--========== Main Styles==========-->
@@ -135,6 +136,9 @@
           </div>
         </div>
       </div>
+    </section>
+    <section id="fromyoutube">
+      <div id="youtube" class="spidochetube"></div>
     </section>
     <section class="pause lazyload" data-bg="/images/ntpl/pause.jpg">
     </section>
@@ -773,6 +777,18 @@
     <script src="js/includes/contact.js"></script>
     <!-- Style Switcher -->
     <script src="js/includes/style-switcher.js"></script>
+    <script src="/js/jquery.spidochetube.min.js"></script>
+    <script>
+        jQuery(function($){
+            $('#youtube').spidochetube({
+                key             : 'AIzaSyCsCQMHHeG-V4B3dmy0ug7WMkxKE0ijkGg',
+                id              : 'PL3WgmEY3t3KSCcAL1ijOo3I91TPkpvSl6',
+                max_results     : 20,
+                paging          : 'loadmore',
+                scroll_duration : 500
+            });
+        })
+    </script>
     <!-- Main JS -->
     <script src="js/main.js"></script>
     <script id="bx24_form_button" data-skip-moving="true">
